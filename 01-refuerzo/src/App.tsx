@@ -1,10 +1,12 @@
 import React from 'react';
-import ObjetosLiterales from './typescript/ObjetosLiterales';
-import TiposBasicos from "./typescript/TiposBasicos";
-import Funciones from './typescript/Funciones';
-import Contador from './components/Contador';
-import ContadorConHook from './components/ContadorConHook';
-import Login from './components/Login';
+import { Formularios } from './components/Formularios';
+// import ObjetosLiterales from './typescript/ObjetosLiterales';
+// import TiposBasicos from "./typescript/TiposBasicos";
+// import Funciones from './typescript/Funciones';
+// import Contador from './components/Contador';
+// import ContadorConHook from './components/ContadorConHook';
+// import Login from './components/Login';
+// import Usuarios from './components/Usuarios';
 
 const App = () => {
   return (
@@ -19,7 +21,9 @@ const App = () => {
       {/* <Funciones /> */}
       {/* {<Contador />} */}
       {/* {<ContadorConHook/>} */}
-      {<Login />}
+      {/* {<Login />} */}
+      {/* <Usuarios /> */}
+      <Formularios />
     </div>
   )
 }
